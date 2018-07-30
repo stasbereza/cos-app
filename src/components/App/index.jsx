@@ -1,6 +1,6 @@
 // Core
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 // Components
 import Container from 'components/Container';
 import Header from 'components/Header';
@@ -58,6 +58,7 @@ class App extends Component {
                 <NewOrderForm {...props} onFormSubmit={this.addOrder} />
               )}
             />
+            <Redirect to="/" />
           </Switch>
         </Container>
       </div>
