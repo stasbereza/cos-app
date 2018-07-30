@@ -1,0 +1,6 @@
+@value primary-accent-color from '../../theme/colors.css';
+
+.header {
+  margin-bottom: 1rem;
+  background: primary-accent-color;
+}

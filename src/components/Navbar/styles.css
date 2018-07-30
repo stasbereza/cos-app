@@ -1,0 +1,26 @@
+@value primary-white-color from '../../theme/colors.css';
+@value primary-dark-color from '../../theme/colors.css';
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list__item {
+  padding: 4px 16px;
+}
+
+.link {
+  color: primary-white-color;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.list__item_active {
+  color: primary-dark-color;
+}

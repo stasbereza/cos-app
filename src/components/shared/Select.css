@@ -1,0 +1,21 @@
+@value primary-accent-color from '../../theme/colors.css';
+@value secondary-accent-color from '../../theme/colors.css';
+@value primary-white-color from '../../theme/colors.css';
+@value primary-dark-color from '../../theme/colors.css';
+
+.select {
+  display: inline-flex;
+  flex: 1 1 100%;
+  padding: 8px;
+  padding-left: 4px;
+  font-size: 16px;
+  background-color: primary-white-color;
+  border: none;
+  border-bottom: 1px solid primary-dark-color;
+  text-transform: capitalize;
+  outline: 0;
+}
+
+.select:focus {
+  border-color: primary-accent-color;
+}

@@ -1,0 +1,13 @@
+@value primary-accent-color from '../../theme/colors.css';
+
+.table {
+  width: 100%;
+  padding: 2px;
+  border: 2px solid primary-accent-color;
+}
+
+.table th, td {
+  padding: 4px;
+  text-transform: capitalize;
+  border: 1px solid primary-accent-color;
+}

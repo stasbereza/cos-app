@@ -1,0 +1,22 @@
+@value primary-dark-color from '../../theme/colors.css';
+@value primary-accent-color from '../../theme/colors.css';
+
+.textarea {
+  display: inline-flex;
+  flex-grow: 1;
+  margin-right: 16px;
+  padding: 4px;
+  font-size: 16px;
+  font-family: inherit;
+  outline: 0;
+  border: 1px solid primary-dark-color;
+}
+
+.textarea::placeholder {
+  font-weight: 400;
+  color: primary-dark-color;
+}
+
+.textarea:focus {
+  border-color: primary-accent-color;
+}

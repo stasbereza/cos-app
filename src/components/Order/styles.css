@@ -1,0 +1,33 @@
+@value primary-accent-color from '../../theme/colors.css';
+@value primary-white-color from '../../theme/colors.css';
+@value primary-dark-color from '../../theme/colors.css';
+
+.status {
+  color: primary-dark-color;
+  background: primary-white-color;
+  text-align: center;
+}
+
+.done,
+.confirm,
+.expired,
+.failed {
+  color: primary-white-color;
+  text-align: center;
+}
+
+.done {
+  background: green;
+}
+
+.confirm {
+  background: primary-accent-color;
+}
+
+.expired {
+  background: orange;
+}
+
+.failed {
+  background: red;
+}
